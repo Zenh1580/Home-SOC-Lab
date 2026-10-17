@@ -97,6 +97,8 @@ curl -s "http://localhost/phpmyadmin/"
 The automated scan generated **~7,700 events** in a single short burst — immediately visible on the dashboard as a sharp spike. This is the classic signature of automated scanning: a massive volume of alerts from a single source in a very short window.
 
 > **Screenshot placeholder:** `![Alert spike after scan](screenshots/dashboard-spike.png)`
+> <img width="1913" height="870" alt="image" src="https://github.com/user-attachments/assets/98bd9a4d-cd66-422d-a914-12ba1c1fd8ef" />
+
 > *The dashboard jumping from ~15 alerts to thousands after the scan.*
 
 ---
