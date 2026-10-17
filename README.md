@@ -1,6 +1,6 @@
 # Home SOC Lab: Detecting & Investigating Web Attacks with Wazuh
 
-**Author:** [Your Name]
+**Author:** Zen
 
 A hands-on home Security Operations Center (SOC) lab built to practice the core blue-team workflow: collecting logs, detecting attacks with a SIEM, and investigating alerts the way a SOC analyst does. This project documents how I built the lab, generated attacks against a controlled target, and — most importantly — how I triaged a critical-severity alert to separate a real threat from scanner noise.
 
