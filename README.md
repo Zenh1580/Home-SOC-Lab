@@ -137,6 +137,8 @@ All five critical alerts were:
 **Shellshock (CVE-2014-6271)** is a 2014 Bash vulnerability allowing remote command execution via crafted HTTP headers. Wazuh rates any attempt as level 15 because successful exploitation means full command execution on the server.
 
 > **Screenshot placeholder:** `![Shellshock alert detail](screenshots/shellshock-detail.png)`
+> <img width="938" height="796" alt="image" src="https://github.com/user-attachments/assets/661b71bf-023c-4496-998a-fd30bccdedd3" />
+
 
 ### Step 3 — Examine the payload
 
