@@ -97,7 +97,8 @@ curl -s "http://localhost/phpmyadmin/"
 The automated scan generated **~7,700 events** in a single short burst — immediately visible on the dashboard as a sharp spike. This is the classic signature of automated scanning: a massive volume of alerts from a single source in a very short window.
 
 > **Screenshot placeholder:** `![Alert spike after scan](screenshots/dashboard-spike.png)`
-> <img width="1913" height="870" alt="image" src="https://github.com/user-attachments/assets/98bd9a4d-cd66-422d-a914-12ba1c1fd8ef" />
+> <img width="1568" height="718" alt="image" src="https://github.com/user-attachments/assets/0ae958c0-1465-4433-949a-97abdf1b20c5" />
+
 
 > *The dashboard jumping from ~15 alerts to thousands after the scan.*
 
@@ -118,6 +119,7 @@ rule.level >= 12
 Of ~7,700 total events, this surfaced **5 critical (level 15) alerts** — everything else was low-severity scanner noise. First question answered: *is there anything that needs a human? Yes — these five.*
 
 > **Screenshot placeholder:** `![Critical alerts filtered](screenshots/critical-alerts.png)`
+> <img width="1913" height="870" alt="image" src="https://github.com/user-attachments/assets/98bd9a4d-cd66-422d-a914-12ba1c1fd8ef" />
 
 ### Step 2 — Identify the alert
 
